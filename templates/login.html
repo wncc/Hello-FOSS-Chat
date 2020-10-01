@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chat Room</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.8/socket.io.min.js"></script>
+
+</head>
+<body>
+    <script src="{{ url_for('static',filename='js/socketio.js') }}"></script>
+
+    <div class="container-fluid">
+        <div  class="row" style="height:665px;">
+            <div class=" h-100 " style="width: 40%;">
+                <div class="col h-25 p-4" style="font-family: 'Times New Roman', Times, serif; background-color: rgb(44, 114, 155);overflow: scroll;">
+                    <div class="row">
+                        <div class="col-5 p-1">
+                            <h4>Display Name:</h4>
+                        </div>
+                        <div class="col-7 p-1">
+                            <h4 id="name">{{ dname }}</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-5 p-1">
+                            <h4>Channel:</h4>
+                        </div>
+                        <div class="col-7 p-1">
+                            <h4 id="presentch">{{channel}}</h4>
+                        </div>
+                    </div>
+                    <div class="row w-100">
+                        <div class="form-group">
+                            <form action="{{ url_for('index') }}">
+                                <input type="submit" id="logout" class="btn btn-info btn-block" value="Log Out">
+                            </form>
+                        </div>
+                      
+                    </div>
+
+                    
+                </div>
+                <div class="h-75 p-4" style="background-color: darkcyan; overflow: scroll;">
+                    <div style="height: 90%;">
+                        <h3 class="display-4" id="ch-head">Channels</h3>
+                        <hr>
+                        <div id="channels">
+                            {% for channel in channels %}
+                            <p class="select-room btn btn-outline-info btn-block">{{channel["ch"]}}</p>
+                            {% endfor %}
+                        </div>
+                    </div>            
+                    <div  style="height: 10%;">
+                        <button class="btn btn-info btn-block"id="create">Create Channel</button>
+                    </div>                   
+                </div>
+            </div>
+            <div class="h-100" style="width: 60%;">
+                <div style="height:90%; background-color: rgb(41, 170, 187); overflow: scroll;">
+                    <div class="p-3"id="chat">            
+                    </div>
+                </div>
+                <div class="p-3 row" style="height: 10%; background-color: rgb(36, 117, 122);" >
+                    <div class="col-10" >
+                        <input class="form-control" type="text" id="message" placeholder="Type Message">
+                    </div>
+                    <div class="col-2" >
+                        <button class="btn btn-info btn-block" id="sendmsg">Send</button>
+                    </div>                    
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

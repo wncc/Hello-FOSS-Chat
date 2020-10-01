@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+{% block title %}
+Login
+{% endblock %}
+
+{% block body %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col w-25">
+
+        </div>
+        <div class="col w-50">
+            <div class="row h-25">
+
+            </div>
+            <div class="row h-50 w-100" >
+                <div class="w-100 p-5" style="border: aquamarine; border-radius: 10px; background-color: rgb(75, 185, 236);">
+                    <form action="{{ url_for('login') }}" method="POST">
+                        <div class="form-group">
+                            <input class="form-control" name="dname" type="text" placeholder="Display Name">
+                        </div>
+                        <div>
+                            <input class="form-control" name="password" type="password" placeholder="Password">
+                        </div>
+                        <div style="margin-top:20px;">
+                            <input class="form-control btn btn-info btn-block" type="submit" value="Log In">
+                        </div>                                               
+                    </form>
+                    {% if message %}
+                    <p style="color: red;">{{ message }}</p>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="row h-25">
+
+            </div>
+          
+        </div>
+        <div class="col w-25">
+
+        </div>
+    </div>
+    
+    
+</div>
+
+
+{% endblock %}
