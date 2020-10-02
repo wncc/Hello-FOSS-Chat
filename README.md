@@ -1,10 +1,6 @@
 # Chat Application
 
-<hr>
-
 ![Login Page](/rm1.png)
-
-![Chat](/rm2.png)
 
 ### Required Skills
 
