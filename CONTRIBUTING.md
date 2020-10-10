@@ -27,9 +27,9 @@
 
 ### Pull Request 
 
-:dash: Make all the necessary changes to the project and commit them to your fork
-:dash: Test the application on your local PC
-:dash: Generate a Pull Request from your fork to 'development' branch of wncc/Hello-FOSS-Dev
-:dash: An appropriate Title should be given to the PR. Also mention the issue id if working on existing issue.
-:dash: Mention in brief what changes you have done to the project. This should include purpose of your contribution, any package version changes(if any), addition of new files(if any), new algorithms used(if any).
-:exclamation: PRs with no proper documentation or contribution that does not count towards improvement of the project are bound to be considered invalid/spam.
+:dash: Make all the necessary changes to the project and commit them to your fork<br>
+:dash: Test the application on your local PC<br>
+:dash: Generate a Pull Request from your fork to 'development' branch of wncc/Hello-FOSS-Dev<br>
+:dash: An appropriate Title should be given to the PR. Also mention the issue id if working on existing issue.<br>
+:dash: Mention in brief what changes you have done to the project. This should include purpose of your contribution, any package version changes(if any), addition of new files(if any), new algorithms used(if any).<br>
+:exclamation: PRs with no proper documentation or contribution that does not count towards improvement of the project are bound to be considered invalid/spam.<br>
