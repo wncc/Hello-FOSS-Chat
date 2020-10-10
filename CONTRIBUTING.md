@@ -2,20 +2,20 @@
 
 ### Basic Instructions
 
-:dash: Change the branch from 'master' to 'development'
-:dash: Fork the 'development' branch into your personal github account
-:dash: Add your contribution to the code in the forked repository.
-:dash: Generate a Pull Request to 'development' branch of the project.
-:exclamation: Note that any PRs to 'master' branch will not be accepted 
+:dash: Change the branch from 'master' to 'development' <br>
+:dash: Fork the 'development' branch into your personal github account<br>
+:dash: Add your contribution to the code in the forked repository.<br>
+:dash: Generate a Pull Request to 'development' branch of the project.<br>
+:exclamation: Note that any PRs to 'master' branch will not be accepted <br>
 
 ### Understanding The Code
 
-:dash: Clone the fork of this repository on you local PC
-:dash: Make sure that you have 'Python 3' installed on your local PC
-:dash: Set up virtual environment in the project folder. Refer this [documentation](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
-:dash: Install the packages mentioned in requirements.txt => pip install -r requirements.txt 
-:dash: After successful installation, you can run the flask app => py application.py
-:dash: Open your browser. The app will run on localhost => 127.0.0.1:5000
+:dash: Clone the fork of this repository on you local PC<br>
+:dash: Make sure that you have 'Python 3' installed on your local PC<br>
+:dash: Set up virtual environment in the project folder. Refer this [documentation](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)<br>
+:dash: Install the packages mentioned in requirements.txt => pip install -r requirements.txt <br>
+:dash: After successful installation, you can run the flask app => py application.py<br>
+:dash: Open your browser. The app will run on localhost => 127.0.0.1:5000<br>
 
 :key: application.py - Flask application which holds the backend code of the chat application.
 
