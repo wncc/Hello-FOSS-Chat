@@ -5,7 +5,7 @@
 - Change the branch from 'master' to 'development'
 - Fork the 'development' branch into your personal github account
 - Add your contribution to the code in the forked repository.
-- Send a Pull Request to 'development' branch of the project.
+- Generate a Pull Request to 'development' branch of the project.
 - Note that any PRs to 'master' branch will not be accepted 
 
 ### Understanding The Code
