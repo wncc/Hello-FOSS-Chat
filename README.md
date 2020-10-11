@@ -1,6 +1,6 @@
 # Chat Application
 
-<p align= "center" ><img src="/gifs/rm1.png" style="height:auto;width:50%;" /></p>
+<p align= "center" ><img src="/gifs/rm1.png" height= auto width= 50%" /></p>
 <hr>
 
 <p align= "center" ><img src="/gifs/chat.gif" /></p>
