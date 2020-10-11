@@ -48,7 +48,7 @@
 
 :exclamation: PRs with no proper documentation or contribution that does not count towards improvement of the project are bound to be considered invalid/spam.<br>
 
-:dash: As every PR gets merged with 'development' branch, it continuously deploys the application at http://hello-foss-chat.herokuapp.com/ . You can view the changes you made at the mentioned website.
+:dash: As every PR gets merged with 'development' branch, application is continuously deployed at http://hello-foss-chat.herokuapp.com/ where you can view your contribution
 
 <hr>
 
