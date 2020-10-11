@@ -28,7 +28,7 @@
 
 :key: application.py - Flask application which holds the backend code of the chat application.
 
-:key: static\js\socketio.js - Javascript file that holds the client side code of the applciation 
+:key: static\js\socketio.js - Javascript file that holds the client side code of the application 
 
 :key: templates\index.html - Homepage 
 
