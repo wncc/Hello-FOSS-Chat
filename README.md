@@ -3,7 +3,7 @@
 ![Login Page](/gifs/rm1.png)
 <hr>
 
-<div style="text-align:center;"><img src="/gifs/chat.gif" /></div>
+<div style="text-align:center;"><img style="text-align:center;" src="/gifs/chat.gif" /></div>
 <hr>
 
 ![Channels](/gifs/channels.gif)
