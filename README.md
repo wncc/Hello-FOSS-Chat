@@ -1,6 +1,12 @@
 # Chat Application
 
-![Login Page](/rm1.png)
+![Login Page](/gifs/rm1.png)
+<hr>
+
+![Chat](/gifs/chat.gif)
+<hr>
+
+![Channels](/gifs/channels.gif)
 
 ### Required Skills
 
