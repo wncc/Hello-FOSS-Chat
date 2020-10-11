@@ -1,6 +1,6 @@
 <h1 align= "center">Chat Application</h1>
 
-<p align= "center" ><img src="/gifs/rm1.png" height= auto width= 60%" /></p>
+<p align= "center" ><img src="/gifs/rm1.png" height= auto width= 80%" /></p>
 <hr>
 
 <p align= "center" ><img src="/gifs/chat.gif" /></p>
@@ -11,11 +11,11 @@
 
 ### Required Skills
 
-- Python
-- Flask
-- HTML
-- Javascript
-- Websockets (SocketIO)
+- Python - [Tutorial](https://github.com/wncc/learners-space/tree/master/Python)
+- Flask - [Tutorial](https://www.wncc-iitb.org/wiki/index.php/Flask)
+- HTML - [Tutorial](https://www.wncc-iitb.org/wiki/index.php/HTML) [Tutorial](https://github.com/wncc/learners-space/blob/master/Web%20Development/Week%201/HTML.md)
+- Javascript - [Tutorial](https://www.wncc-iitb.org/wiki/index.php/JavaScript_Basics) [Tutorial](https://github.com/wncc/learners-space/blob/master/Web%20Development/Week%203/Bootstap%2BJavaScript.md)
+- Websockets (SocketIO) - [Tutorial](https://flask-socketio.readthedocs.io/en/latest/)
 
 ### Problem Statement
 
