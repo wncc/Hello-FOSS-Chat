@@ -1,12 +1,13 @@
 # Chat Application
 
-![Login Page](/gifs/rm1.png)
+<p align= "center" ><img src="/gifs/rm1.png" style="height:auto;width:50%;" /></p>
 <hr>
 
-<p align= "center" ><img src="/gifs/chat.gif" /></div>
+<p align= "center" ><img src="/gifs/chat.gif" /></p>
 <hr>
 
-![Channels](/gifs/channels.gif)
+<p align= "center" ><img src="/gifs/channels.gif" /></p>
+<hr>
 
 ### Required Skills
 
