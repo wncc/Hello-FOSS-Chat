@@ -33,15 +33,15 @@ This is a Chat Application where users will be able to sign into your site with 
 
 - Remembering the Channel: If a user is on a channel page, closes the web browser window, and goes back to your web application, your application should remember what channel the user was on previously and take the user back to that channel.
 
-### Improvements Needed
+### Some Improvements 
 
-- Storage: Conversation Data is to be stored in local storage at client-side in browser sessions.
+- [Storage](https://github.com/wncc/Hello-FOSS-Dev/issues/9): Conversation Data is to be stored in local storage at client-side in browser sessions.
 
-- Storage 2: Display Names and Passwords to be stored in PostgreSQL Database and sessions to be implemented for user Log in and Log out.
+- [Storage 2](https://github.com/wncc/Hello-FOSS-Dev/issues/10): Display Names and Passwords to be stored in PostgreSQL Database and sessions to be implemented for user Log in and Log out.
 
-- UI/UX: A robust mobile responsive application has to be implemented. People with knowledge in Bootstrap4 and CSS can work on this.
+- [UI/UX](https://github.com/wncc/Hello-FOSS-Dev/issues/11): A robust mobile responsive application has to be implemented. People with knowledge in Bootstrap4 and CSS can work on this.
 
-- Document Sharing: Feature to upload and share documents in different channels.
+- [Document Sharing](https://github.com/wncc/Hello-FOSS-Dev/issues/14): Feature to upload and share documents in different channels.
 
 You can find more such improvements in issues on which you can contribute.
 
