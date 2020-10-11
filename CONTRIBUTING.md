@@ -47,3 +47,9 @@
 :dash: Mention in brief what changes you have done to the project. This should include purpose of your contribution, any package version changes(if any), addition of new files(if any), new algorithms used(if any).<br>
 
 :exclamation: PRs with no proper documentation or contribution that does not count towards improvement of the project are bound to be considered invalid/spam.<br>
+
+:dash: As every PR gets merged with 'development' branch, it continuously deploys the application at http://hello-foss-chat.herokuapp.com/ . You can view the changes you made at the mentioned website.
+
+<hr>
+
+
