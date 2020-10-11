@@ -28,7 +28,7 @@
 
 :key: application.py - Flask application which holds the backend code of the chat application.
 
-:key: static\js\socketio.js - Javascript file that holds the client side code of the applciation 
+:key: static\js\socketio.js - Javascript file that holds the client side code of the application 
 
 :key: templates\index.html - Homepage 
 
@@ -47,3 +47,9 @@
 :dash: Mention in brief what changes you have done to the project. This should include purpose of your contribution, any package version changes(if any), addition of new files(if any), new algorithms used(if any).<br>
 
 :exclamation: PRs with no proper documentation or contribution that does not count towards improvement of the project are bound to be considered invalid/spam.<br>
+
+:dash: As every PR gets merged with 'development' branch, application is continuously deployed at http://hello-foss-chat.herokuapp.com/ where you can view your contribution
+
+<hr>
+
+<p align="center">Created with :heart: by <a href="https://www.wncc-iitb.org/">WnCC</a></p>

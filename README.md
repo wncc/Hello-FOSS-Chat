@@ -1,14 +1,21 @@
-# Chat Application
+<h1 align= "center">Chat Application</h1>
 
-![Login Page](/rm1.png)
+<p align= "center" ><img src="/gifs/rm1.png" height= auto width= 80%" /></p>
+<hr>
+
+<p align= "center" ><img src="/gifs/chat.gif" /></p>
+<hr>
+
+<p align= "center" ><img src="/gifs/channels.gif" /></p>
+<hr>
 
 ### Required Skills
 
-- Python
-- Flask
-- HTML
-- Javascript
-- Websockets (SocketIO)
+- Python - [Tutorial](https://github.com/wncc/learners-space/tree/master/Python)
+- Flask - [Tutorial](https://www.wncc-iitb.org/wiki/index.php/Flask)
+- HTML - [Tutorial](https://www.wncc-iitb.org/wiki/index.php/HTML) [Tutorial](https://github.com/wncc/learners-space/blob/master/Web%20Development/Week%201/HTML.md)
+- Javascript - [Tutorial](https://www.wncc-iitb.org/wiki/index.php/JavaScript_Basics) [Tutorial](https://github.com/wncc/learners-space/blob/master/Web%20Development/Week%203/Bootstap%2BJavaScript.md)
+- Websockets (SocketIO) - [Tutorial](https://flask-socketio.readthedocs.io/en/latest/)
 
 ### Problem Statement
 
@@ -37,3 +44,7 @@ This is a Chat Application where users will be able to sign into your site with 
 - Document Sharing: Feature to upload and share documents in different channels.
 
 You can find more such improvements in issues on which you can contribute.
+
+<hr>
+
+<p align="center">Created with :heart: by <a href="https://www.wncc-iitb.org/">WnCC</a></p>
