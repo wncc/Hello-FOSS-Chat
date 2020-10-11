@@ -44,3 +44,7 @@ This is a Chat Application where users will be able to sign into your site with 
 - Document Sharing: Feature to upload and share documents in different channels.
 
 You can find more such improvements in issues on which you can contribute.
+
+<hr>
+
+<p align="center">Created with :heart: by <a href="https://www.wncc-iitb.org/">WnCC</a></p>
