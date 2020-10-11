@@ -1,4 +1,4 @@
-# Chat Application
+<h1 style="text-align:center;">Chat Application</h1>
 
 <p align= "center" ><img src="/gifs/rm1.png" height= auto width= 50%" /></p>
 <hr>
