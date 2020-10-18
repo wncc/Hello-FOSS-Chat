@@ -10,6 +10,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.8/socket.io.min.js"></script>
 
+<style>
+    html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+</style>
 </head>
 <body>
     <script src="{{ url_for('static',filename='js/socketio.js') }}"></script>
@@ -28,7 +38,7 @@
                     </div>
                     <div class="row">
                         <div class="col-5 p-1">
-                            <h4>Channel:</h4>
+                            <h4>Chal:</h4>
                         </div>
                         <div class="col-7 p-1">
                             <h4 id="presentch">{{channel}}</h4>
