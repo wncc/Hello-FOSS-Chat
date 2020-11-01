@@ -10,17 +10,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.8/socket.io.min.js"></script>
 
-<style>
-    html {
-    overflow: scroll;
-    overflow-x: hidden;
-}
-::-webkit-scrollbar {
-    width: 0px;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
-}
-
-</style>
 </head>
 <body>
     <script src="{{ url_for('static',filename='js/socketio.js') }}"></script>
@@ -56,13 +45,13 @@
 
                     
                 </div>
-                <div class=" p-4" style="background-color: darkcyan; overflow: scroll; height: 75.6%;">
+                <div class="h-75 p-4" style="background-color: darkcyan; overflow: scroll;">
                     <div style="height: 90%;">
                         <h3 class="display-4" id="ch-head">Channels</h3>
                         <hr>
                         <div id="channels">
                             {% for channel in channels %}
-                            <p class="select-room btn btn-outline-info btn-block">{{channel["channel"]}}</p>
+                            <p class="select-room btn btn-outline-info btn-block">{{channel["ch"]}}</p>
                             {% endfor %}
                         </div>
                     </div>            
@@ -76,16 +65,15 @@
                     <div class="p-3"id="chat">            
                     </div>
                 </div>
-             <form action="">
-                <div class="p-3 row" style="height: 10%; background-color: rgb(36, 117, 122); width: 102%; float: right;" >
-                    <div class="col-10"  >
+                <div class="p-3 row" style="height: 10%; background-color: rgb(36, 117, 122);" >
+                    <div class="col-10" >
                         <input class="form-control" type="text" id="message" placeholder="Type Message">
                     </div>
                     <div class="col-2" >
                         <button class="btn btn-info btn-block" id="sendmsg">Send</button>
                     </div>                    
                 </div>
-            </form>
+    
             </div>
         </div>
     </div>
